@@ -1,0 +1,9 @@
+/* src/styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small custom styles */
+html, body {
+  height: 100%;
+}
