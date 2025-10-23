@@ -18,18 +18,6 @@ export default function Banner() {
 
       <div className="absolute inset-0 bg-[url('/banner.webp')] bg-cover bg-center opacity-10"></div>
 
-
-
-      {/* <div className="relative w-full h-[400px]">
-        <img
-          src="/banner.webp"
-          alt="Banner"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
-          <h1 className="text-white text-4xl font-bold">Welcome to My Website</h1>
-        </div>
-      </div> */}
     </section>
   );
 }
