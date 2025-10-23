@@ -2,7 +2,6 @@
 import Banner from "@/components/Home/Banner";
 import Card from "@/components/Home/Card";
 import Category from "@/components/Home/Category";
-import Faq from "@/components/Home/Faq";
 export default async function HomePage() {
 
   return (
@@ -10,7 +9,6 @@ export default async function HomePage() {
     <Banner />
     <Card />
     <Category />
-    {/* <Faq /> */}
    </div>
   );
 }
