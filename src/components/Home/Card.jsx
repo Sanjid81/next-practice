@@ -5,7 +5,6 @@ export default function HomePage() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  // Fetch data from API
   useEffect(() => {
     fetch("https://fakestoreapi.com/products?limit=6")
       .then((res) => res.json())
